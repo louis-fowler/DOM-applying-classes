@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -21,13 +22,24 @@ div {
   background-color: blue;
 }
 
-.invisible {
-  display: none;
+.green {
+  background-color: green;
 }
 
-.visible {
-  display: block;
+.brown {
+  background-color: brown;
+}
+
+.invisible {
+  display: none;
   border: 3px black dashed;
   border-radius: 0;
   background-color: white;
 }
+
+/* .visible {
+  display: block;
+  border: 3px black dashed;
+  border-radius: 0;
+  background-color: white;
+} */
